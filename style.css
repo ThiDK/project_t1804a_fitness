@@ -1,0 +1,60 @@
+body {
+  font-family: tahoma;
+   font-size: 13px;
+   width: auto;
+   margin: 0px auto;
+
+}
+#nav {
+  background: black;
+  height: 70px;
+  width: auto;
+}
+#nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+#nav ul li {
+  list-style: none;
+  float: left;
+}
+#nav ul li a{
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #FFF;
+  padding: 0px 20px 0px 10px;
+
+}
+#nav ul li a.active{
+  background: #1949b5;
+}
+#header {
+  background: red;
+  height: 300px;
+  width: auto;
+  }
+#content{
+  height: 1000px;
+  width: auto;
+}
+#content #left{
+  width: 400px;
+  float: left;
+  min-height: 1000px;
+}
+#content #right{
+  width:600px;
+  background: #5ef262;
+  float: left;
+  min-height: 1000px;
+
+}
+
+#footer{
+  background: #111;
+  color: blue;
+  height: 250px;
+  width: auto;
+}
